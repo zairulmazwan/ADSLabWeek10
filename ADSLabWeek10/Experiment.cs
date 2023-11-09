@@ -1,6 +1,6 @@
 public class Experiment
 {
-    public static void runExp() //modify this method which may take some parameters
+    public static void runExp()
     {
         for (int n=1000; n<14000; n+=2000)
         {
