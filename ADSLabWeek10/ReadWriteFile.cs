@@ -23,10 +23,10 @@ public class ReadWriteFile {
 		return res;
 	}
 	
-	public static void writeResult(double [,] result) 
+	public static void writeResult(double [,] result) //you may need to add 1 more parameter to make the method dynamic for datasets
 	{
 		
-		string filename = "mstData_xx.csv";
+		string filename = "mstData_xx.csv"; //modify this variable so that it can take a dynamic process. E.g., mstData_datasize.csv
 
 		using(StreamWriter sw = new StreamWriter(filename))
 		{
@@ -92,6 +92,15 @@ public class ReadWriteFile {
 				Console.Write(" ");
 			}
 			Console.WriteLine();
+		}
+	}
+
+	public static void genExpDataset ()
+	{
+		for (int i=1000; i<10000; i+=2000)
+		{
+			//Call genData method pass i to this method
+			//Call writeResult method. You may need to modify the method which should take a file name for the dataset e.g 1000
 		}
 	}
 }
