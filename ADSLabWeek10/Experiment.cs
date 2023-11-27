@@ -4,7 +4,7 @@ public class Experiment
     {
         for (int n=1000; n<10000; n+=2000)
         {
-            //Generate a dataset of size n
+            //Read the dataset of size n
             //You may need to declare a 2D array of size [25,3] to capture Datasets, Experiment Number, Seconds
 
             Console.WriteLine("::Experiment for Dataset {0}::", n);
