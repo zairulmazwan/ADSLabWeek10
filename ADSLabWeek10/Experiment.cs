@@ -2,7 +2,7 @@ public class Experiment
 {
     public static void runExp()
     {
-        for (int n=1000; n<14000; n+=2000)
+        for (int n=1000; n<10000; n+=2000)
         {
             //Generate a dataset of size n
 
