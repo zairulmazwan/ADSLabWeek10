@@ -99,8 +99,9 @@ public class ReadWriteFile {
 	{
 		for (int i=1000; i<10000; i+=2000)
 		{
-			//Call genData method pass i to this method
+			//Call genData method, pass i to this method
 			//Call writeResult method. You may need to modify the method which should take a file name for the dataset e.g 1000
 		}
 	}
 }
+//©Zairul Mazwan©
